@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Wrapper from "./components/Wrapper";
@@ -7,8 +6,6 @@ import Stories from "./components/Pages/Stories";
 import Features from "./components/Pages/Features";
 import Pricing from "./components/Pages/Pricing";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Wrapper>
       <Routes>
